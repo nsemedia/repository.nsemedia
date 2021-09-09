@@ -8,8 +8,8 @@
             <datadir zip="true">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/leia/zips/</datadir>
         </dir>
 	<dir minversion="19.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/matrix/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/repo/matrix/addons.xml.md5</checksum>
+            <info compressed="false">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/matrix/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/matrix/zips/</datadir>
         </dir>
     </extension>
