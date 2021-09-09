@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nse" name="NSE MediaCenter Repository" version="1.0.2" provider-name="NSE">
+<addon id="repository.nse" name="NSE MediaCenter Repository" version="1.0.3" provider-name="NSE">
     <extension point="xbmc.addon.repository" name="NSE MediaCenter Repository">
         <dir minversion="18.0.0" maxversion="18.9.9">
             <info compressed="false">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/leia/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/leia/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/leia/zips/</datadir>
         </dir>
-		<dir minversion="19.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/matrix/repo/zips/addons.xml</info>
+	<dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/matrix/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/repo/matrix/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/nsemedia/repository.nsemedia/master/matrix/zips/</datadir>
         </dir>
