@@ -1,0 +1,7 @@
+								<item>
+									<property name="current">{{ is_current }}</property>
+									<label>{{ label }}</label>
+									<onclick condition="Control.IsVisible(10052)">ClearProperty(Episodes)</onclick>
+									<onclick>{{ onclick }}</onclick>
+									<onclick>Control.SetFocus(100, 0)</onclick>
+								</item>

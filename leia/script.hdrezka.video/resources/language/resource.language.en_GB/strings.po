@@ -1,0 +1,661 @@
+# Embuary Info language file
+# Addon Name: Embuary Info
+# Addon id: script.embuary.info
+# Addon Provider: sualfred
+# Translators:
+# Ivan Poletsky <wiperus55@gmail.com>, 2019
+# Эдуард Приутеса <eduardpriutesa@gmail.com>, 2020
+# 
+msgstr ""
+msgid ""
+"Project-Id-Version: Embuary Helper\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-11-24 08:54+0000\n"
+"Last-Translator: Эдуард Приутеса <eduardpriutesa@gmail.com>, 2020\n"
+"Language-Team: Russian (Russia) (https://www.transifex.com/sualfred/teams/80018/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgctxt "#32000"
+msgstr "Error"
+msgid "Ошибка"
+
+msgctxt "#32001"
+msgstr "Protocol"
+msgid "Протокол"
+
+#: /resources/settings.xml
+msgctxt "#32002"
+msgstr "Source"
+msgid "Ресурс"
+
+#: /resources/settings.xml
+msgctxt "#32003"
+msgstr "Default Video Quality"
+msgid "Качество Видео по Умолчанию"
+
+#: /resources/lib/tmdb.py
+msgctxt "#32019"
+msgstr "No information found"
+msgid "Информация не найдена"
+
+#: /resources/lib/utils.py
+msgctxt "#32022"
+msgstr "Restriction Mode"
+msgid "Режим Ограничения"
+
+#: /default.py
+msgctxt "#32004"
+msgstr "Person"
+msgid "Человек"
+
+#: /default.py
+msgctxt "#32005"
+msgstr "Search for"
+msgid "Поиск"
+
+#: /resources/skins/default/1080i/script-embuary-person.xml
+msgctxt "#32006"
+msgstr "Age"
+msgid "Возраст"
+
+#: /resources/skins/default/1080i/script-embuary-person.xml
+msgctxt "#32007"
+msgstr "Place of birth"
+msgid "Место рождения"
+
+#: /resources/skins/default/1080i/script-embuary-person.xml
+msgctxt "#32008"
+msgstr "Facts"
+msgid "Факты"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32009"
+msgstr "Similar"
+msgid "Похожее"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32010"
+msgstr "Images"
+msgid "Изображения"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32011"
+msgstr "Premiered"
+msgid "Премьера"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32012"
+msgstr "Retail"
+msgid "Ритейл"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32013"
+msgstr "Budget"
+msgid "Бюджет"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32014"
+msgstr "Revenue"
+msgid "Кассовые сборы"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32015"
+msgstr "Awards"
+msgid "Награды"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32016"
+msgstr "Seasons"
+msgid "Сезоны"
+
+#: /resources/skins/default/1080i/script-embuary-person.xml
+msgctxt "#32017"
+msgstr "Known for"
+msgid "Известность за"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32018"
+msgstr "Crew"
+msgid "Съёмочный состав"
+
+#: /resources/settings.xml
+msgctxt "#32023"
+msgstr "min"
+msgid "мин"
+
+#: /resources/settings.xml
+msgctxt "#32020"
+msgstr "Developer settings"
+msgid "Настройки разработчика"
+
+#: /resources/settings.xml
+msgctxt "#32021"
+msgstr "Enable caching (highly recommended - only turn off for debugging)"
+msgid "Включить кэширование (рекомендуется - только выключить для отладки)"
+
+#: /resources/settings.xml
+msgctxt "#32024"
+msgstr "Default language"
+msgid "Язык по умолчанию"
+
+#: /resources/skins/default/1080i/script-embuary-person.xml
+msgctxt "#32025"
+msgstr "items in your library"
+msgid "в вашей библиотеке"
+
+#: /resources/settings.xml
+msgctxt "#32026"
+msgstr "Misc."
+msgid "Разное"
+
+#: /resources/settings.xml
+msgctxt "#32027"
+msgstr "Hide person appearances in reality/talk/news shows"
+msgid "Скрыть появления человека в реалити/разговорных/новостных шоу"
+
+#: /resources/settings.xml
+msgctxt "#32028"
+msgstr ""
+"Hide person appearances in specials/documentaries/behind the scenes movies"
+msgid ""
+"Скрыть появления человека в спешлах/бекстейджах/документальных фильмах"
+
+#: /resources/lib/listing.py
+msgctxt "#32029"
+msgstr "Top rated movies"
+msgid "Лучшие фильмы"
+
+#: /resources/lib/listing.py
+msgctxt "#32030"
+msgstr "Now playing movies"
+msgid "Новинки кино"
+
+#: /resources/lib/listing.py
+msgctxt "#32031"
+msgstr "Upcoming movies"
+msgid "Предстоящие фильмы"
+
+#: /resources/lib/listing.py
+msgctxt "#32032"
+msgstr "Popular movies"
+msgid "Популярные фильмы"
+
+#: /resources/lib/listing.py
+msgctxt "#32033"
+msgstr "Top rated TV shows"
+msgid "Лучшие сериалы"
+
+#: /resources/lib/listing.py
+msgctxt "#32034"
+msgstr "Popular TV shows"
+msgid "Популярные фильмы"
+
+#: /resources/lib/listing.py
+msgctxt "#32035"
+msgstr "TV shows airing today"
+msgid "Сериалы, выходящие сегодня"
+
+#: /resources/lib/listing.py
+msgctxt "#32036"
+msgstr "TV shows airing in the next 7 days"
+msgid "Сериалы, выходящие в течение 7 дней"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32037"
+msgstr "Collection"
+msgid "Коллекция"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32039"
+msgstr "Guest stars"
+msgid "Приглашенные звезды"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32040"
+msgstr "Season"
+msgid "Сезон"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32163"
+msgstr "Episodes"
+msgid "Эпизоды"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32164"
+msgstr "Episode"
+msgid "Эпизод"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32166"
+msgstr "Series"
+msgid "Серия"
+
+#: /plugin.py
+msgctxt "#32038"
+msgstr "Widgets"
+msgid "Виджеты"
+
+#: /resources/settings.xml
+msgctxt "#32041"
+msgstr "Hide items from similar movies if they are part of the collection"
+msgid "Скрывать похожие фильмы, если они часть коллекции"
+
+#: /resources/lib/widgets.py
+msgctxt "#32042"
+msgstr "Trending movies"
+msgid "Популярные фильмы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32043"
+msgstr "Trending shows"
+msgid "Популярные сериалы"
+
+#: /resources/settings.xml
+msgctxt "#32044"
+msgstr "Hide upcoming items"
+msgid "Скрыть предстоящие предметы"
+
+#: /resources/settings.xml
+msgctxt "#32045"
+msgstr "Allow items of the next [n] days"
+msgid "Разрешить элементы следующих [n] дней"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32046"
+msgstr "Watched episodes"
+msgid "Просмотренные эпизоды"
+
+#: /resources/settings.xml
+msgctxt "#32047"
+msgstr "Install Embuary Skin for Matrix"
+msgid "Установка Embuary Skin для Matrix"
+
+#: /resources/skins/default/1080i/script-embuary-video.xml
+msgctxt "#32048"
+msgstr "Next episode"
+msgid "Следующий эпизод"
+
+#: /resources/lib/widgets.py
+msgctxt "#32049"
+msgstr "Discover"
+msgid "Обнаружить"
+
+#: /resources/lib/widgets.py
+msgctxt "#32050"
+msgstr "Discover movies"
+msgid "Откройте для себя фильмы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32051"
+msgstr "Discover TV shows"
+msgid "Откройте для себя сериалы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32052"
+msgstr "Discover movies by year"
+msgid "Откройте для себя фильмы по годам"
+
+#: /resources/lib/widgets.py
+msgctxt "#32053"
+msgstr "Discover movies by genre"
+msgid "Откройте для себя фильмы по жанрам"
+
+#: /resources/lib/widgets.py
+msgctxt "#32054"
+msgstr "Discover TV shows by year"
+msgid "Откройте для себя сериалы по годам"
+
+#: /resources/lib/widgets.py
+msgctxt "#32055"
+msgstr "Discover TV shows by genre"
+msgid "Откройте для себя сериалы по жанрам"
+
+#: /resources/lib/widgets.py
+msgctxt "#32056"
+msgstr "Previous page"
+msgid "Предыдущая страница"
+
+#: /resources/lib/widgets.py
+msgctxt "#32057"
+msgstr "Discover people"
+msgid "Откройте для себя людей"
+
+#: /resources/lib/widgets.py
+msgctxt "#32058"
+msgstr "Next 7 days"
+msgid "Следующие 7 дней"
+
+#: /resources/lib/widgets.py
+msgctxt "#32059"
+msgstr "Next airing episodes of your TV show library"
+msgid "Следующие трансляции вашей библиотеки сериалов"
+
+#: /resources/lib/widgets.py
+msgctxt "#32100"
+msgstr "﻿Western"
+msgid "Вестерны"
+
+#: /resources/lib/widgets.py
+msgctxt "#32101"
+msgstr "Family"
+msgid "Семейные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32102"
+msgstr "Fantasy"
+msgid "Фэнтези"
+
+#: /resources/lib/widgets.py
+msgctxt "#32103"
+msgstr "Biographical"
+msgid "Биографические"
+
+#: /resources/lib/widgets.py
+msgctxt "#32104"
+msgstr "Arthouse"
+msgid "Арт-хаус"
+
+#: /resources/lib/widgets.py
+msgctxt "#32105"
+msgstr "Action"
+msgid "Боевики"
+
+#: /resources/lib/widgets.py
+msgctxt "#32106"
+msgstr "Military"
+msgid "Военные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32107"
+msgstr "Detective"
+msgid "Детективы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32108"
+msgstr "Crime"
+msgid "Криминал"
+
+#: /resources/lib/widgets.py
+msgctxt "#32109"
+msgstr "Adventures"
+msgid "Приключения"
+
+#: /resources/lib/widgets.py
+msgctxt "#32110"
+msgstr "Drama"
+msgid "Драмы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32111"
+msgstr "Sport"
+msgid "Спортивные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32112"
+msgstr "Fiction"
+msgid "Фантастика"
+
+#: /resources/lib/widgets.py
+msgctxt "#32113"
+msgstr "Comedy"
+msgid "Комедии"
+
+#: /resources/lib/widgets.py
+msgctxt "#32114"
+msgstr "Melodrama"
+msgid "Мелодрамы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32115"
+msgstr "Thriller"
+msgid "Триллеры"
+
+#: /resources/lib/widgets.py
+msgctxt "#32116"
+msgstr "Horror"
+msgid "Ужасы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32117"
+msgstr "Musical"
+msgid "Мюзиклы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32118"
+msgstr "Historical"
+msgid "Исторические"
+
+#: /resources/lib/widgets.py
+msgctxt "#32119"
+msgstr "Documentary"
+msgid "Документальные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32120"
+msgstr "Erotic"
+msgid "Эротика"
+
+#: /resources/lib/widgets.py
+msgctxt "#32121"
+msgstr "Kids"
+msgid "Детские"
+
+#: /resources/lib/widgets.py
+msgctxt "#32122"
+msgstr "Travel"
+msgid "Путешествия"
+
+#: /resources/lib/widgets.py
+msgctxt "#32123"
+msgstr "Cognitive"
+msgid "Познавательные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32124"
+msgstr "Theatre"
+msgid "Театр"
+
+#: /resources/lib/widgets.py
+msgctxt "#32125"
+msgstr "Concert"
+msgid "Концерт"
+
+#: /resources/lib/widgets.py
+msgctxt "#32126"
+msgstr "Standup"
+msgid "Стендап"
+
+#: /resources/lib/widgets.py
+msgctxt "#32127"
+msgstr "Short"
+msgid "Короткометражные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32128"
+msgstr "Our"
+msgid "Наши"
+
+#: /resources/lib/widgets.py
+msgctxt "#32129"
+msgstr "Ukrainian"
+msgid "Украинские"
+
+#: /resources/lib/widgets.py
+msgctxt "#32130"
+msgstr "Foreign"
+msgid "Зарубежные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32131"
+msgstr "Realtv"
+msgid "Реальное ТВ"
+
+#: /resources/lib/widgets.py
+msgctxt "#32132"
+msgstr "Telecasts"
+msgid "Телепередачи"
+
+#: /resources/lib/widgets.py
+msgctxt "#32133"
+msgstr "Russian"
+msgid "Русские"
+
+#: /resources/lib/widgets.py
+msgctxt "#32134"
+msgstr "Fairytale"
+msgid "Сказки"
+
+#: /resources/lib/widgets.py
+msgctxt "#32135"
+msgstr "Anime"
+msgid "Аниме"
+
+#: /resources/lib/widgets.py
+msgctxt "#32136"
+msgstr "Soyzmyltfilm"
+msgid "Советские"
+
+#: /resources/lib/widgets.py
+msgctxt "#32137"
+msgstr "Multseries"
+msgid "Мультсериалы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32138"
+msgstr "Adult"
+msgid "Для взрослых"
+
+#: /resources/lib/widgets.py
+msgctxt "#32139"
+msgstr "Full-Length"
+msgid "Полнометражные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32140"
+msgstr "Romance"
+msgid "Романтические"
+
+#: /resources/lib/widgets.py
+msgctxt "#32141"
+msgstr "Mystery"
+msgid "Мистические"
+
+#: /resources/lib/widgets.py
+msgctxt "#32142"
+msgstr "Fighting"
+msgid "Боевые искусства"
+
+#: /resources/lib/widgets.py
+msgctxt "#32143"
+msgstr "Samurai"
+msgid "Самурайский боевик"
+
+#: /resources/lib/widgets.py
+msgctxt "#32144"
+msgstr "Educational"
+msgid "Образовательные"
+
+#: /resources/lib/widgets.py
+msgctxt "#32145"
+msgstr "Everyday"
+msgid "Повседневность"
+
+#: /resources/lib/widgets.py
+msgctxt "#32146"
+msgstr "Parody"
+msgid "Пародия"
+
+#: /resources/lib/widgets.py
+msgctxt "#32147"
+msgstr "School"
+msgid "Школа"
+
+#: /resources/lib/widgets.py
+msgctxt "#32148"
+msgstr "Kodomo"
+msgid "Кодомо"
+
+#: /resources/lib/widgets.py
+msgctxt "#32149"
+msgstr "Shoujoai"
+msgid "Сёдзё-ай"
+
+#: /resources/lib/widgets.py
+msgctxt "#32150"
+msgstr "Shoujo"
+msgid "Сёдзё"
+
+#: /resources/lib/widgets.py
+msgctxt "#32151"
+msgstr "Shounen"
+msgid "Сёнэн"
+
+#: /resources/lib/widgets.py
+msgctxt "#32152"
+msgstr "Shounenai"
+msgid "Сёнэн-ай"
+
+#: /resources/lib/widgets.py
+msgctxt "#32153"
+msgstr "Ecchi"
+msgid "Этти"
+
+#: /resources/lib/widgets.py
+msgctxt "#32154"
+msgstr "Mahoushoujo"
+msgid "Махо-сёдзё"
+
+#: /resources/lib/widgets.py
+msgctxt "#32155"
+msgstr "Mecha"
+msgid "Меха"
+
+#: /resources/lib/widgets.py
+msgctxt "#32156"
+msgstr "Films"
+msgid "Фильмы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32157"
+msgstr "Series"
+msgid "Сериалы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32158"
+msgstr "Cartoons"
+msgid "Мультфильмы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32159"
+msgstr "Animation"
+msgid "Аниме"
+
+#: /resources/lib/widgets.py
+msgctxt "#32160"
+msgstr "New"
+msgid "Новинки"
+
+#: /resources/lib/widgets.py
+msgctxt "#32161"
+msgstr "Announce"
+msgid "Анонсы"
+
+#: /resources/lib/widgets.py
+msgctxt "#32162"
+msgstr "Collections"
+msgid "Подборки"
+
+#: /resources/lib/widgets.py
+msgctxt "#32165"
+msgstr "From a series"
+msgid "Из серии"
+
+
+#: /resources/lib/widgets.py
+msgctxt "#32166"
+msgstr "From the list"
+msgid "Из списка"

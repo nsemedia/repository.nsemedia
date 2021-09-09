@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="2.0.1" provider-name="Philipp Temminghoff (phil65), xulek, domb84">
+    <requires>
+        <import addon="script.module.autocompletion" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py"/>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">AutoCompletion for the virtual keyboard (needs skin support)</summary>
+        <description lang="en">AutoCompletion for the virtual keyboard (needs skin support)</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+        <source>https://github.com/phil65/plugin.program.autocompletion</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <!--            <fanart>resources/fanart.jpg</fanart>-->
+            <!--            <screenshot>resources/screenshot-01.jpg</screenshot>-->
+            <!--            <screenshot>resources/screenshot-02.jpg</screenshot>-->
+            <!--            <screenshot>resources/screenshot-03.jpg</screenshot>-->
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.hdrezka.video" name="HD Rezka" version="1.0.0" provider-name="GH">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.9.3"/>
+        <import addon="script.module.arrow" version="0.10.0"/>
+        <import addon="script.module.simplecache" version="1.0.19" />
+        <import addon="script.module.routing" version="0.2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">HD Rezka Script</summary>
+        <description lang="en_GB">Script to provide HD Rezka informations for persons, shows and movies. Works best with a skin integration.</description>
+        <platform>all</platform>
+        <license>Apache-2.0</license>
+        <assets>
+            <icon>resources/icon.jpg</icon>
+            <fanart>resources/fanarts/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>

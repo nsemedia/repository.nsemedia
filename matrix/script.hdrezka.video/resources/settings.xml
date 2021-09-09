@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="128">
+		<setting label="$ADDON[script.hdrezka.video 32024]" type="select" values="en|ru" id="language_code" default="ru"/>
+		<setting label="$ADDON[script.hdrezka.video 32001]" id="dom_protocol" type="labelenum" values="http|https" default="https"/>
+		<setting label="$ADDON[script.hdrezka.video 32002]" id="domain" type="text" default="rezka.ag"/>
+		<setting label="$ADDON[script.hdrezka.video 32003]" id="quality" type="labelenum" values="360p|480p|720p|1080p|1080p Ultra" default="720p"/>
+		<setting label="$ADDON[script.hdrezka.video 32022]" id="restricted" type="bool" default="true"/>
+		<setting label="$ADDON[script.hdrezka.video 32026]" type="lsep"/>
+		<setting label="$ADDON[script.hdrezka.video 32047]" type="action" action="InstallAddon(skin.embuary-matrix)" visible="!System.HasAddon(skin.embuary-matrix)"/>
+		<setting label="$ADDON[script.hdrezka.video 32020]" type="lsep"/>
+		<setting label="$ADDON[script.hdrezka.video 32021]" type="bool" id="cache_enabled" default="true"/>
+	</category>
+</settings>
