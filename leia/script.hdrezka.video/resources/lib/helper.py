@@ -41,6 +41,7 @@ FALLBACK_LANGUAGE = 'en'
 DEFAULT_RESOLUTION = ADDON.getSettingString('quality')
 
 RESTRICTED = ADDON.getSettingBool('restricted')
+RESTRICTIONS = [u'аниме',u'эротик',u'ужас']
 
 CACHE = simplecache.SimpleCache()
 CACHE.enable_mem_cache = False
