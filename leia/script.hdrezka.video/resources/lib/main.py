@@ -280,8 +280,9 @@ class DialogVideo(xbmcgui.WindowXMLDialog):
 
         for items in li:
             try:
-                clist = self.getControl(index)
-                clist.addItems(items)
+                if isinstance(items,(list,tuple)):
+                    clist = self.getControl(index)
+                    clist.addItems(items)
             except RuntimeError as error:
                 log('Control with id %s cannot be filled. Error --> %s' % (str(index), error), DEBUG)
                 pass
