@@ -342,13 +342,15 @@ def rezka_collections(show_error=False):
         def get_list(src):
             list_=[]
             for item in src.find_all("div", class_="b-content__collections_item"):
-                i = {
-                      'name': item.find('a').text.strip(),
-                      'call': [el.strip() for el in item["data-url"].strip().split('/') if el.strip()][-1],
-                      'icon': item.find('img')["src"],
-                    }
-                list_.append(i)
-
+                if RESTRICTED and bool([el for el in RESTRICTIONS if item.find('a').text.lower().strip().find(el) > -1]):
+                    continue
+                else:
+                    i = {
+                          'name': item.find('a').text.strip(),
+                          'call': [el.strip() for el in item["data-url"].strip().split('/') if el.strip()][-1],
+                          'icon': item.find('img')["src"],
+                        }
+                    list_.append(i)
             return list_
 
         try:
